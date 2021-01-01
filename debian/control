@@ -1,0 +1,20 @@
+Source: sillypoker
+Section: games
+Priority: optional
+Maintainer: laurence john lane <ljlane@debian.org>
+Standards-Version: 3.0.1
+
+Package: sillypoker
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: A poker game
+ silly Poker is an advanced poker game with support for a single player
+ against 1-4 computer opponents in five card draw, five card stud, and seven
+ card stud poker games.
+ .
+ The program in this package contains support for the standard text interface
+ and the curses interface.
+ .
+  Author:   Kevin Radloff <kmradlof@colby.edu>
+  Homepage: http://rad2.colby.edu/~radkade1/poker.html
+

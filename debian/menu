@@ -1,0 +1,2 @@
+?package(sillypoker):needs=text section=Games/Card\
+  title="sillyPoker" command="/usr/bin/sillypoker"

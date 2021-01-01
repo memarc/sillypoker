@@ -1,0 +1,21 @@
+sillypoker (0.25.4-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- laurence john lane <ljlane@debian.org>  Thu, 13 Apr 2000 00:47:36 -0400
+
+sillypoker (0.25.3-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- laurence john lane <ljlane@debian.org>  Sun,  9 Apr 2000 13:39:17 -0400
+
+sillypoker (0.25.1-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- laurence john lane <ljlane@debian.org>  Sat,  8 Apr 2000 19:35:04 -0400
+
+Local variables:
+mode: debian-changelog
+End:

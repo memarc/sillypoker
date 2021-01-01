@@ -1,0 +1,15 @@
+silly Poker
+
+by RAD Kade 1, aka Kevin Radloff <kmradlof@colby.edu>
+
+the files in ./src/menus/ are taken from iptraf 2.1.1, written by Gerard Paul
+Java, and copyright (c) Gerard Paul Java 1997, 1998
+
+Special thanks to:
+- ljlane <ljlane@debian.org> for doing the debian stuff :)
+- Steven Gibson <superant@superant.com> for adding autoconf support
+- Gameslink (irc.gameslink.net) #Unreal for not quite helping out.
+- abamfici for the same reason. ;)
+- EFnet #E for helping with testing
+- schubert and mazeone for being my sex kittens
+

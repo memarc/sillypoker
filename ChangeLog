@@ -1,0 +1,92 @@
+v0.25.5
+-------------------
+- inserted check before calling deleteHand() in execgame(), should finally fix
+  bankrupsy crash bug
+- added additional check to CursesInterface::playerBet() to prevent the player
+  from betting more than she has
+
+v0.25.4
+-------------------
+- reworked Hand::score() to correctly handle >5 card hands
+- reinserted status checks before doing players[]->visHand(), caused crash if
+  players went bankrupt
+- small AI tweaks
+
+v0.25.3
+-------------------
+- scorehands() fixes
+- further cleanups of CursesInterface::initGameUI()
+- changed order of mainmsgwin panel and window deletion in
+  CursesInterface::initGameUI()
+
+v0.25.2
+-------------------
+- added debian dir (thanks ljlane :)
+- cleaned up window placement code in CursesInterface::initGameUI() (hopefully
+  fixing random crash bug)
+
+v0.25.1
+-------------------
+- fixed hard-coded 5 card length in Hand::sort()
+- added extra check in CurseInterface::playerBet(), was not allowing some
+  valid bets
+
+v0.25
+-------------------
+- added ncurses interface
+- started Qt interface
+- fixed man page and added poker howto
+- gave AI the ability to bluff
+
+v0.20pre
+-------------------
+- changed char *'s to strings
+- changed Player::drawCard() and added AI::drawCard() to print the cards drawn
+  instead of doing it in the game loop
+- added Player::visHand() and Hand::makeVis(), and added the former to
+  studSeven() and studFive(), so that players may view the entire hand
+- added another loop to handle ties in scorehands()
+- moved `high' check to beginning of bet() to prevent an infinite loop
+- added bankrupsy checking to bet(), and added a player bankrupt check to
+  execgame() which exits if the player goes bankrupt
+- put a view() at the end of execgame()
+- changed drawmenu() to execgame()
+- moved studSeven(), studFive(), and drawFive() to games.cpp
+- user statistics are saved in ~/.sillypokerstats
+- added stats.cpp and a Stats class to keep track of game statistics
+- the players are deleted and createopponents() is run again in playmenu() if
+  the account starting value or number of players is changed
+- added conf.cpp and conf.h, for config file (~/.sillypokerrc) parsing and an
+  options menu
+- moved source files to src/
+- added a bet cap
+- changed seedrnd() to use gettimeofday() if it can
+- added setPos(0) to Deck::shuffle, games other than five card draw would
+  start in the middle of the deck on the second game otherwise
+- fixed Hand::Hand(Deck *, int) bug that would cause pointer mixups and
+  duplicate cards
+- added AI subclass
+- added five card stud
+- now with autoconf support, thanks to Steven Gibson <superant@superant.com>
+- added Player::printHand() and removed repetitive if (player == human) checks
+  in main.cpp
+- added appropriate hand->print()s in fiveDraw(), and changed all print()s to
+  be mode 0 instead of 2, except for discardmenu()
+- added check to make sure a raising player raises at least the previous raise
+- added additional bet() in fiveDraw(); should be draw, bet, discard, bet
+- fixed isnum()
+
+v0.15
+-------------------
+- revamped gameplay internals in main.cpp
+- Generalized Hand object and member functions to allow varied game types
+- Added a Player class (player.cpp)
+- Fixed bug in drawmenu() which would cause duplicate cards if the player
+  folded immediately and drew hands again. Reported by Grant Morphett
+  <gmorph@canb.auug.org.au>.
+- Fixed calls in isStraight() to Card::getSuit() which should have been to
+  Card::getRank(). Reported by Grant Morphett <gmorph@canb.auug.org.au>.
+
+v0.11
+-------------------
+- Initial public release

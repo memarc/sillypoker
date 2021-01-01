@@ -1,0 +1,9 @@
+AUTOMAKE_OPTIONS = 1.4
+
+SUBDIRS = doc src
+
+EXTRA_DIST = \
+	ChangeLog \
+	README \
+	TODO
+

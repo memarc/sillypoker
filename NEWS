@@ -1,0 +1,13 @@
+2000-04-05 :: v0.25
+------------------------
+As far as I know, the text and curses interfaces should work great (although I
+have seen some issues on machines other than my own with the curses ui). The
+Qt interface is still under construction. If you have any issues/idea/whatever
+regarding any of the interfaces, *PLEASE* send me comments. This is a very
+important area to me. :)
+
+Please check the man page/poker mini howto for more info on how to play and
+configure silly Poker.
+
+-kev
+

@@ -1,0 +1,29 @@
+**************************
+****** silly Poker *******
+**** by Kevin Radloff ****
+*** kmradlof@colby.edu ***
+**************************
+
+silly Poker is a program I started writing to fill the rather gaping hole in
+the unix gaming world. And to polish my programming skills. But it seems like
+everyone and his brother has written a solitaire clone of some sort, but
+there doesn't seem to be a poker game. So, here it is. ;)
+
+Send all bug reports, fixes, patches, constructive criticism, etc. to
+kmradlof@colby.edu. Send all flames to, well, kmradlof@colby.edu. At least it
+shows you care a little bit.
+
+Notes for v0.25:
+As far as I know, the text and curses interfaces should work great (although I
+have seen some issues on machines other than my own with the curses ui). The
+Qt interface is still under construction. If you have any issues/idea/whatever
+regarding any of the interfaces, *PLEASE* send me comments. This is a very
+important area to me. :)
+
+Please check the man page/poker mini howto for more info on how to play and
+configure silly Poker.
+
+Installation:
+Just run ./configure, make, and then make install if you like.
+If you have Qt, you may want to try configure with the --enable-qt option.
+

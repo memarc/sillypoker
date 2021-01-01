@@ -1,0 +1,19 @@
+Legend:
+- needs to be done
++ in the process of doing
+* done
+
+Immediate:
+- fix config file saving/loading to work in windows (how? do I need to? ;)
++ change view() to show which round it is in the game
++ fix Hand::score() to correctly handle 7 card hands
+- add "graphical" cards to curses ui
+- cleanup code ;)
+- revamp gameplay code to be event-based
+- recode games to be object-based
+
+In the near future:
+- a generic, configurable AI to allow players to choose the attitude of their
+  opponents
++ a nifty Qt interface
+

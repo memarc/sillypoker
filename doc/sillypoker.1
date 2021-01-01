@@ -1,0 +1,69 @@
+.Dd April 5, 2000
+.Os Linux
+.Dt SILLYPOKER 1
+.Pp
+.Sh NAME
+.Nm sillypoker
+.Nd silly Poker, the poker game.
+.Pp
+.Sh SYNOPSIS
+.B 
+sillypoker
+.Op Fl h
+.Op Fl \-help
+.Op Fl v
+.Op Fl \-version
+.Pp
+.Sh DESCRIPTION
+.Nm silly Poker
+is a poker game. It has a text interface and alternately a curses and Qt one.
+.Pp
+It supports five card draw, five card stud, and seven card stud poker.
+.Pp
+.Sh CONFIGURATION
+.Nm silly Poker
+uses the configuration file
+.Pa ~/.sillypokerrc Ns .
+It supports the following options. Each line must be in the format
+.So
+.Va option
+=
+.Va value
+.Sc Ns \&.
+.Bl -tag -width Ar -offset indent
+.It Ar players
+the number of players (2-5)
+.It Ar account
+the starting amount in each player's account
+.It Ar drawbetcap
+the betting cap in draw poker
+.It Ar studbetcap
+the betting cap in stud poker
+.It Ar color
+1 to enable curses color, 0 to disable it (only if compiled with ncurses
+support)
+.It Ar cardaspic
+1 to enable "pictures" of cards instead of text (unimplemented)
+.It Ar interface
+which interface to default to (text, curses, qt)
+.El
+.Pp
+.Sh ENVIRONMENT
+.Nm silly Poker
+utilizes the
+.Ev HOME
+environment variable.
+.Pp
+.Sh FILES
+.Bl -tag -width Pa -offset indent
+.It Pa ~/.sillypokerrc
+user configuration file
+.It Pa ~/.sillypokerstats
+user statistics data file
+.El
+.Pp
+.Sh AUTHOR
+Kevin Radloff
+.Aq kmradlof@colby.edu
+.Pa http://rad2.colby.edu/~radkade1/
+

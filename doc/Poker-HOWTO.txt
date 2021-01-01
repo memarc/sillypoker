@@ -1,0 +1,47 @@
+How to Play Poker in 3 Easy Steps ;)
+---------------------------------
+
+1. The basics of five card draw poker
+
+In five card draw poker, the dealer first deals five cards to ever player. The
+player to the left of the dealer then begins the first betting round. Each
+player then has the option of either calling (matching the bet), raising
+(increasing the size of the bet), or folding. Raises must be at least the size
+of the original bet.
+
+After all players have either called or folded, the draw phase begins.
+Starting to the dealer's left, each player discards a number of cards and is
+dealt the same number of new cards. Each player can also choose to "stand
+pat," or discard no cards.
+
+The final betting round then begins. Betting begins to the left of the dealer,
+and continues until all players have called or folded.
+
+The hands of the players still in the pot are then turned over, and the player
+with the highest hand wins the pot. In order of highest to lowest, the
+possible hands are:
+1. straight flush
+2. four of a kind
+3. full house
+4. flush
+5. straight
+6. three of a kind
+7. two pair
+8. two of a kind
+
+2. The basics of five card stud
+
+Each player is dealt one card face down and one card face up. A betting round
+then takes place. Each player is dealt another face up card, followed by a
+betting round. This is repeated twice more, until each player has one face
+down card and four face up cards. All the hands are then revealed, and the
+highest hand wins.
+
+3. The basics of seven card stud
+
+Each player is dealt two cards face down and one card face up. A betting round
+then takes place. Each player is dealt another face up card, followed by a
+betting round. This is repeated twice more. Each player is then dealt a face
+down card, and another betting round takes place. The hands are then revealed,
+and the highest hand wins.
+
